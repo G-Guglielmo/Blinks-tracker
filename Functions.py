@@ -27,11 +27,9 @@ from scipy import stats
 
 # if you need a code to extract the EAR please look at the example in the notebook file
 
-# the values of 2, 5, 15 represent constraints of frames representing milliseconds (2*33, 2*33, 15*33) in a 30 fps recording
+# the values of 2, 4, 15 represent constraints of frames representing milliseconds (2*33.34, 4*33.34, 15*33.34) in a 30 fps recording
 
-# the values of 2, 4, 15 represent constraints of frames representing milliseconds (2*33, 4*33, 15*33) in a 30 fps recording
-
-# 1 frame = 33 ms (approximately)
+# 1 frame = 33.34 ms (approximately)
 
 def isolation_forest(data):
 
